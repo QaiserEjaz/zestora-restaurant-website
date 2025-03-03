@@ -19,8 +19,6 @@ const App = () => {
       text: "rgb(24, 24, 29)",
       white: "rgb(255, 255, 255)",
       black: "rgb(33, 37, 41)",
-      // helper: "rgb(237, 228, 47)",
-      // bg: "rgb(184, 0, 31)",
       bg: "rgb(237, 148, 47)",
       helper: "rgba(184, 58, 0, 0.64)",
       btn: "rgb(76, 154, 42)",
@@ -43,9 +41,6 @@ const App = () => {
       laptop: "1024px",
       laptopL: "1440px",
       desktop: "2560px",
-
-      // mobile: "768px",
-      // tab: "998px",
     },
   };
 
