@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Zestora - Pizza Ordering Website 🍕
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Zestora Banner](/src/images/banner.png)
 
-## Available Scripts
+Zestora is a modern, responsive pizza ordering website built with React and Styled Components. It allows users to browse a variety of delicious pizzas and other menu items, read blogs, log in/register, and contact the team. The site is designed to provide a seamless user experience across all devices, from mobile to desktop.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Features](#features)
+- [Demo](#demo)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Getting Started with Create React App](#getting-started-with-create-react-app)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop screens.
+- **Menu Browsing**: Explore a variety of pizzas, burgers, and more with detailed descriptions and prices.
+- **Shopping Cart**: Add items to the cart, adjust quantities, and proceed to checkout.
+- **User Authentication**: Login and register functionality with form validation using `react-hook-form`.
+- **Contact Form**: Reach out to the team with a contact form integrated with Formspree.
+- **Blog Section**: Read engaging blog posts about food and recipes.
+- **Error Handling**: Custom 404 page for invalid routes.
+- **Newsletter Subscription**: Sign up for updates and offers.
+- **Google Maps Integration**: Embedded map on the Contact page to show the restaurant's location.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Check out the live demo of Zestora here: [Zestora Demo](https://zestora-qaiser.netlify.app/) 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
 
-### `npm run eject`
+### Home Page
+![Home Page](/src/images/homepage.png)
+*The Home page showcasing the hero section and menu.*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Menu Page
+![Menu Page](/src/images/menu.png)
+*Browse delicious pizzas and other items in the menu.*
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Cart
+![Cart](/src/images/cart.png)
+*View and manage your cart items before checkout.*
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Blog Page
+![Blog Page](/src/images/blogs.png)
+*Read engaging blog posts about food and recipes.*
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Contact Page
+![Contact Page](/src/images/contact.png)
+*Get in touch with the Zestora team via the contact form and see the location on the map.*
 
-## Learn More
+### Login Page
+![Login Page](/src/images/login.png)
+*Login to your Zestora account to place orders.*
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Register Page
+![Register Page](/src/images/register.png)
+*Register to your Zestora to place orders.*
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Follow these steps to set up Zestora locally on your machine:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/QaiserEjaz/zestora-restaurant-website.git
+   cd zestora
