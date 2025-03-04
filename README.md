@@ -10,16 +10,13 @@ Zestora is a modern, responsive pizza ordering website built with React and Styl
 - [Demo](#demo)
 - [Screenshots](#screenshots)
 - [Installation](#installation)
-- [Getting Started with Create React App](#getting-started-with-create-react-app)
-- [Usage](#usage)
+- [Getting Started ](#getting-started)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ---
 
-## Features
+## 🚀 Features
 
 - **Responsive Design**: Fully optimized for mobile, tablet, and desktop screens.
 - **Menu Browsing**: Explore a variety of pizzas, burgers, and more with detailed descriptions and prices.
@@ -79,3 +76,37 @@ Follow these steps to set up Zestora locally on your machine:
    ```bash
    git clone https://github.com/QaiserEjaz/zestora-restaurant-website.git
    cd zestora
+
+---
+
+## 🏃‍♂️ Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- yarn
+
+---
+
+## 🛠️ Technologies
+
+- Frontend Framework : React 18
+- Build Tool : Vite
+- Styling : Styled Components
+- Routing : React Router DOM
+- Form Handling : React Hook Form
+- UI Components :
+   - React Icons
+   - React Tilt
+- Deployment : Netlify
+
+---
+
+## Contact
+Qaiser Ejaz - @QaiserEjaz
+
+---
+
+
+
+---
